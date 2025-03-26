@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: rgb(86, 56, 135);
+  display: flex;
+  justify-content: center;
+}
+
+
+main {
+  height: 100vh;
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+
+img {
+  box-shadow: 0 1px 2px #0003;
+  width: 100%;
+}
+
+.swiper {
+  height: 500px;
+}
+
+.swiper-slide {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 450px) {
+  .swiper {
+    height: 270px;
+  }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-size: 1em;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background: #8787e4;
+}
+
+#area-cabecalho {
+  background-color: #8787e4;
+  padding: 15px;
+  text-align: center;
+}
+
+#area-logo, #area-menu {
+  padding: 10px;
+}
+
+#area-principal{
+  width: 920px;
+  margin: 0 auto; 
+}
+
+#area-postagens, #area-lateral{
+  background: rgb(86, 56, 135);
+}
+
+#area-postagens{
+  width: 900px;
+  float: center;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.gallery-item {
+  margin: 10px;
+  width: 150px;
+  height: auto;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform 0.2s; 
+}
+
+.gallery-item:hover {
+  transform: scale(1.05); /* acho-> parte para aumentar a imagem */}
+
+.imagem{margin: 10px;
+  width: 250px;
+  height: auto;
+  border-radius: 20px;
+}
+
+/*----------------------------------------------------------------------------------------
+parte pra mudar o estilo na hora de clicar na imagem
+add dentro do a href: class="image-link"
+
+.image-link {
+  display: inline-block; 
+  position: relative; 
+  overflow: hidden; 
+  border-radius: 8px; 
+  transition: box-shadow 0.3s ease; 
+}
+
+.image-link img {
+  display: block; 
+  max-width: 100%; 
+  height: auto;
+  transition: transform 0.3s ease; 
+}
+
+.image-link:hover img {
+  transform: scale(1.05); 
+}
+
+.image-link:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+}
+-------------------------------------------------------------------------------*/
+
+
+#area-lateral{
+  width: 200px;
+  float: right;
+}
+
+.postagem{
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #8787e4;
+
+}
+
+.postagem2 {
+    font-family: "Oswald", sans-serif;
+    max-width: 500px; 
+    margin: 10px; 
+    padding: 10px; 
+    line-height: 1.5; 
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+#rodape {
+  clear: both;
+  text-align: center;
+  padding: 15px;
+  background: #CCC;
+}
+
+#leia{
+  color: rgb(94, 190, 120);
+  padding: 0px;
+    }
+
+a{
+  text-decoration: none;
+}
+a:link, a:visited{
+  color: #0843a2;
+  padding: 8px 12px;
+}
+
+a:hover{
+  color: #71cdb3;
+  background: #FFF;
+
+}
+
+h1{
+  font-family: "Kumar One Outline", system-ui;
+  color: #554eb7;
+  font-size: 2.5em;
+  }
+
+h2{
+  font-family: "Oswald", system-ui;
+  color: #3c3696;
+  font-size: 2.5em;
+  
+}
+
+h4{
+  font-family: "Oswald", system-ui;
+  color: #5c5893;
+
+}
+
+.oswald-postagem {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 25;
+  font-style: normal;
+}
+
+
+.branco {
+  color: rgb(255, 255, 255);
+  font-size: 1em;
+}
+
+
+input{
+  border-radius: 50px;
+  border-color: 222222;
+  padding: 10px 10px 10px 10px;
+}
+
+#espaco-lateral-esquerdo {
+  position: fixed;  
+  top: 0;
+  left: 0;  
+  width: 300px;  
+  height: 100%;  
+  background-color: #beb4ee; 
+  z-index: 9999;
+}
+
+/*width: 440px*/
+
+#espaco-lateral-direito {
+  position: fixed; 
+  top: 0;
+  right: 0; 
+  width: 300px;
+  height: 100%;
+  background-color: #beb4ee;
+  z-index: 9999;
+}
+
+/*width: 440px*/
+

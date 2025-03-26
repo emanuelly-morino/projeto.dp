@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv = "refresh" content = "60" >
+    <title>WikiGeek - Sua Biblioteca Geek</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+    <link rel="shortcut icon" href = "fotos/" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div id="area-cabecalho">
+      <div id="area-logo">
+        <h1>Wiki<span class="branco">Geek</span></h1>
+      </div>
+      <div id="area-menu">
+        <a href="index.html">Página Inicial</a>
+        <a href="animes.html">Animes</a>
+        <a href="manhwa.html">Manhwas</a>
+        <a href="jogos.html">Jogos</a>
+        <a href="eventos.html">Eventos</a>
+      </div>
+
+      <main>
+
+        <div class="gallery">
+
+          <img src="o_unico_destino_para_os_viloes_e_a_morte.jpg" alt="Imagem 1" class="gallery-item" onclick="openPage('o-unico-destino-para-os-viloes-e-a-morte.html')">
+              <img src="ser-uma-vila-nao-e-muito-melhor.jpg" alt="Imagem 2" class="gallery-item" onclick="openPage('ser-uma-vila-nao-e-muito-melhor.html')">
+              <img src="mais-uma-vez-ate-a-luz.jpg" alt="Imagem 3" class="gallery-item" onclick="openPage('mais-uma-vez-ate-a-luz.html')">
+              <img src="a-princesa-marcou-o-traidor.jpg" alt="Imagem 4" class="gallery-item" onclick="openPage('a-princesa-marcou-o-traidor.html')">
+          </div>
+
+        <script>
+            function openPage(pageUrl) {
+                window.location.href = pageUrl; 
+            }
+        </script>
+          
+        <style>
+        div.box {
+        width: 100px;
+        display: inline-block;
+        }
+        </style>
+
+      </main>
+
+      <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+      <script src="script.js"></script>
+        <div class="postagem">
+
+      </div>
+
+    </div>
+
+    <div id="espaco-lateral-esquerdo">
+
+    </div>
+
+    <div id="espaco-lateral-direito">
+
+    </div>
+
+    <div id="espaco-lateral-direito"></div>
+
+  </body>
+</html>
